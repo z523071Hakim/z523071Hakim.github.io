@@ -1,41 +1,151 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>White Goose Bistro</title>
-        <meta charset="utf-8">
-        <style>
-            body{
-                background-color: #D1F8F8;
-                margin: 0 10%;
-                font-family: sans-serif;
-            }
-            h1{
-                text-align: center;
-                font-family: serif;
-                font-weight: normal;
-                text-transform: uppercase;
-                border-bottom: 1px solid #296262;
-                margin-top: 30px;
-            }
-            h2{
-                color: #439D9D;
-                font-size: 1em;
-            }
-        </style>
-    </head>
-
-    <body>
-        <h1><img src="blackgoose.png" alt="logo"><br>White Goose Bistro</h1>
-        
-        <h2>The Restaurant</h2>
-        <p>The White Goose Bistro offers casual lunch and dinner fare in a relaxed atmosphere. The menu changes regularly to highlight the freshest local ingredients.</p>
-        
-        <h2>Catering</h2>
-        <p>You have fun. <em>We'll handle the cooking.</em> White Goose Catering can handle events from snacks for a meetup to elegant corporate fundraisers.</p>
-        
-        <h2>Location and Hours</h2>
-        <p>Seekonk, Massachusetts;<br>
-        Monday through Thursday 11am to 9pm;<br>Friday and Saturday, 11am to midnight<br>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Hakim REDJEM</title>
+    <link rel="stylesheet" href="style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <div class="profile">
+        <img src="images/profile.jpeg" alt="Hakim REDJEM" />
+        <h1>Hakim REDJEM</h1>
+        <p>Fourth year student from EPITECH</p>
+        <a href="mailto:z523071@shibaura-it.ac.jp"
+          ><button>Contact Me</button></a
+        >
+      </div>
+      <div class="description">
+        <h2>About</h2>
+        <p>
+          Exchange Student from Epitech (France) studying computer sciences.
         </p>
-    </body>
+      </div>
+      <div class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <img src="images/python.png" alt="Python" />
+            <p>Python</p>
+          </div>
+          <div class="skill">
+            <img src="images/flutter.png" alt="Flutter" />
+            <p>Flutter</p>
+          </div>
+          <div class="skill">
+            <img src="images/c.png" alt="C lang" />
+            <p>C</p>
+          </div>
+          <div class="skill">
+            <img src="images/cpp.png" alt="C++ lang" />
+            <p>C++</p>
+          </div>
+          <div class="skill">
+            <img src="images/c-sharp.png" alt="c sharp" />
+            <p>C Sharp</p>
+          </div>
+          <div class="skill">
+            <img src="images/HTML5.png" alt="html" />
+            <p>HTML</p>
+          </div>
+          <div class="skill">
+            <img src="images/CSS3.png" alt="css" />
+            <p>CSS</p>
+          </div>
+          <div class="skill">
+            <img src="images/js.png" alt="js" />
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <iframe
+            src="https://www.youtube.com/embed/0iO2uH7ddG0?si=DXkPa9rifySM5wPr&amp;controls=0"
+            title="Ready Developper one Gamejam"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <p>Ready Developper one Gamejam</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/medinbox.png" alt="Medinbox" />
+          <p>Medinbox AI frontend</p>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Power10 Developper</h3>
+        <p>BPCE-IT, Toulouse</p>
+        <p>07/2021 - 12/2021</p>
+        <p>
+          Sole developer of the tool "Power10" in C#, which is the tool used by
+          the support of the bank group "BPCE"
+        </p>
+      </div>
+      <div class="experience-item">
+        <h3>Occasionnal Instructor</h3>
+        <p>IONIS Group, Toulouse</p>
+        <p>03/2023 - 04/2023</p>
+        <p>
+          Instructor during the ISCC (ISEG Spring Code Camp), the goal of this
+          code camp was to learn the basics of html, css, html and sql.
+        </p>
+      </div>
+      <div class="experience-item">
+        <h3>AI R&D Internship</h3>
+        <p>Medinbox, Toulouse</p>
+        <p>04/2023 - 08/2023</p>
+        <p>
+          Internship inside the medi/tech company Medinbox in which I had to
+          create a new AI solution to incorporate to their legacy solution.
+        </p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <p>z523071@shibaura-it.ac.jp</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <p>+81 080 (7885) 0202</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Tokyo, Japan</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/hakim-redjem/"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
 </html>
